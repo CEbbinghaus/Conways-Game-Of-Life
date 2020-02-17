@@ -143,7 +143,7 @@ conwayCheck.prototype.update = function (w, h){
         this.current[k][2] = res;
     }
     this.old = copy(this.current);
-    console.log("Updating took " + (Date.now() - updateTime) + " Milleseconds")
+    //console.log("Updating took " + (Date.now() - updateTime) + " Milleseconds")
 }
 
 function copy(arr){

@@ -267,7 +267,7 @@ function run(){
         document.title = "Running";
         gridColor = activeGridColor;
     }
-    console.log("Drawing took " + (Date.now() - drawTime) + " Milleseconds")
+    //console.log("Drawing took " + (Date.now() - drawTime) + " Milleseconds")
     }
     window.setTimeout(function(){run()}, countingTime - Date.now())
 }
